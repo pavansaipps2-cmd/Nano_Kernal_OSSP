@@ -1,0 +1,9 @@
+pavan@PAVAN-LOQ:~$ nano p3.c
+pavan@PAVAN-LOQ:~$ gcc p3.c
+pavan@PAVAN-LOQ:~$ ./a.out
+Parent process (PID: 539) is sleeping. Child PID: 540
+Child process (PID: 540) is exiting.
+Parent process waking up and finishing.
+pavan@PAVAN-LOQ:~$ ps aux | grep z
+pavan        563  0.0  0.0   4128  2344 pts/0    S+   05:20   0:00 grep --color=auto z
+pavan@PAVAN-LOQ:~$
