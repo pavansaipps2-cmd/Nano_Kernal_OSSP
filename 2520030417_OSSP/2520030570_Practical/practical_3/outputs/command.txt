@@ -1,0 +1,19 @@
+## Aim
+
+To observe process state transitions such as Ready, Running, Waiting, and Terminated using Linux monitoring tools like `ps`, `top`, and `/proc`.
+
+## Description
+
+A process changes its state during execution depending on CPU availability and resource requirements.
+
+- **Ready** – Waiting for CPU time.
+- **Running** – Currently using the CPU.
+- **Waiting** – Waiting for a resource or event.
+- **Terminated** – Execution is completed.
+
+## Commands Used
+
+### Using `ps`
+
+`ps` stands for **Process Status**. It is used to display information about currently running processes, such as PID, PPID, and process state.
+top - dynamic change 

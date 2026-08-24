@@ -1,0 +1,9 @@
+execve("/bin/cat", ["cat", "sample.txt"], 0x7ffd5f727450) = 0
+openat(AT_FDCWD, "sample.txt", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=15, ...}) = 3
+read(3, "Hello OS Lab\n", 131072)       = 15
+write(1, "Hello OS Lab\n", 15)           = 15
+read(3, "", 131072)                     = 0
+close(3)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
