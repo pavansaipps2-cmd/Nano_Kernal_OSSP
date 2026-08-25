@@ -1,0 +1,12 @@
+my_pc_ankith@DESKTOP-EH6NV3N:~$ nano p3.c
+my_pc_ankith@DESKTOP-EH6NV3N:~$ gcc p3.c
+my_pc_ankith@DESKTOP-EH6NV3N:~$ ./a.out
+Parent process. PID: 1547, Child PID: 1548
+Parent sleeping for 25 seconds without calling wait()...
+Tip: Run 'ps aux | grep Z' in another terminal right now to see the zombie!
+Child process created. PID: 1548
+Child exiting immediately to become a zombie...
+Parent finished sleeping and exits.
+my_pc_ankith@DESKTOP-EH6NV3N:~$ ps aux | grep z
+my_pc_a+    1595  0.0  0.0   4128  2396 pts/0    S+   09:07   0:00 grep --color=auto z
+my_pc_ankith@DESKTOP-EH6NV3N:~$
